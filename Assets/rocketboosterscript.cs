@@ -21,10 +21,7 @@ public class rocketboosterscript : MonoBehaviour
 
      private void inputprocess()
     {
-      if(Input.GetKey(KeyCode.Space)  || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
-        {
-            rigidbody.AddRelativeForce(Vector3.up);
-        }
+     
       if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Rotate(Vector3.forward);
